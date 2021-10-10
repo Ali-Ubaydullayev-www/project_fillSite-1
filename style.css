@@ -120,5 +120,14 @@ ul,li{
     margin-top: 100px;
     width: 100%;
     height: 63px;
-    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.navBarBlock-3>div{
+    color:#3629B7;
+    font-size: 14px;
+    font-weight: 600;
 }
