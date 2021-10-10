@@ -42,7 +42,7 @@ ul,li{
     align-items: stretch;
 }
 .header>div{
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .headerInput-1 input{
@@ -53,17 +53,30 @@ ul,li{
     border: 1px solid #E7E7E7;
     padding-left: 51px;
 }
-.headerInput-2{
 
+.headerInput-2 input{
+    width: 310px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #E7E7E7;
+    padding-left: 19px;
+    margin-left: 34px;
 }
 .headerIcon-1{
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .headerIcon-2{
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 .headerImage{
-
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 
