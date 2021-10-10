@@ -35,8 +35,36 @@ ul,li{
     border-bottom: 1px solid #F2F2F2;
     grid-column: 2/3;
     grid-row: 1/2;
-    padding: 46px;
+    padding: 24px 46px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-content: stretch;
+    align-items: stretch;
 }
+.header>div{
+    border: 1px solid red;
+
+}
+.headerInput-1 input{
+    /* width: 517px;
+    height: 50px; */
+
+}
+.headerInput-2{
+
+}
+.headerIcon-1{
+
+}
+.headerIcon-2{
+
+}
+.headerImage{
+
+}
+
+
 .content{
     grid-column: 2/3;
     grid-row: 1/3;
